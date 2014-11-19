@@ -1,0 +1,17 @@
+{
+    "name": "twitrans_bot",
+    "description": "translating bot makes you global person",
+    "repository": "https://github.com/mazamachi/twitrans_bot",
+    "env": {
+        "LANGUAGE_FROM": "ja",
+        "LANGUAGE_TO": "en",
+        "MENTION_NOT_INCLUDE": "true",
+        "USER_IDS": "",
+        "TRANS_CLIENT_ID": "",
+        "TRANS_CLIENT_SECRET": "",
+        "BOT_CONSUMER_KEY": "",
+        "BOT_CONSUMER_SECRET": "",
+        "BOT_ACCESS_TOKEN": "",
+        "BOT_ACCESS_TOKEN_SECRET": ""
+    }
+}
