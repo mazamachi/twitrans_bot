@@ -55,7 +55,10 @@ end
 @from=ENV["LANGUAGE_FROM"]
 @to = ENV["LANGUAGE_TO"]
 @mention_include = (ENV["MENTION_NOT_INCLUDE"]=="false")
-@ids=ENV["USER_IDS"].split(/[, ]/).map(&:to_i)
+@names=ENV["USER_IDS"].split(/[, ]/)
+@ids=[]
+@names.each{|name| @ids<<cli.user(name).id}
+
 client.follow(@ids) do |tweet|
   if @mention_include||(tweet.in_reply_to_user_id.class==Twitter::NullObject&&tweet.retweeted_status.class==Twitter::NullObject)
     twe=tweet.text
