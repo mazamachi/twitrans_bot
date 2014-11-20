@@ -65,6 +65,6 @@ Don't include "@" please.
 After filling in the all blanks, click 'Deploy for Free' button. 
 At last, activate the bot with moving bar to 1 at the "Resources" tab.
 
-##Auther
+##Author
 
 show_me(mazamachi)
