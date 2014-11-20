@@ -6,7 +6,7 @@ __You can make a bot which translates your tweets simultaneously in only 3 steps
 
 1. Making a twitter account and app for the bot
 
-1. Deploying to Heroku this program
+1. Deploying this program to Heroku
 
 
 ##Usage
@@ -32,7 +32,7 @@ At last, move to "Keys and Access Tokens" tab and click the "Create my access to
 
 Please note Consumer Key (API Key), Consumer Secret (API Secret), Access Token and Access Token Secret.
 
-### 3. Deploy to Heroku this program
+### 3. Deploy  this program to Heroku
 
 Click the Deploy button bellow.
 
