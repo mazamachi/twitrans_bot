@@ -9,6 +9,8 @@ __You can make a bot which translates your tweets simultaneously in only 3 steps
 1. Deploying this program to Heroku
 
 
+__This app doesn't support closed twitter account.__
+
 ##Usage
 
 ### 1. Make Microsoft Translator App
